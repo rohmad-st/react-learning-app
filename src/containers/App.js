@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import Router from '../router';
-import Menu from '../components/Menu';
+import Header from '../components/Header';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
-        <Menu/>
+        <Header/>
         <Router/>
       </div>
     );
   }
 }
-
-export default App;
